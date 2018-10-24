@@ -15,6 +15,4 @@ class Taxi
     def pickup_rider(name)
         @rider_list << name
     end
-
-
 end
