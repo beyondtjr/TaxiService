@@ -12,9 +12,7 @@ class Taxi
         @rider_list = []
     end
 
-    def pickup_rider(name)
+    def pickup_passenger(name)
         @rider_list << name
     end
-
-
 end
